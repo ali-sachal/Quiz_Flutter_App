@@ -71,7 +71,7 @@ class ResultScreen extends StatelessWidget {
                 onPressed:(){
                   Navigator.of(context).pushReplacement(
                     MaterialPageRoute(
-                        builder: (_)=> QuizScreen()
+                        builder: (_)=> const QuizScreen()
                     ),
                   );
                 },
